@@ -79,4 +79,14 @@ A análise evidenciou variáveis críticas associadas ao churn. Recomendam-se a�
 ---
 
 ## 📁 Estrutura do Projeto
-
+telecom-x-churn-analysis/
+├── imgs/ # Pasta com os gráficos gerados durante a EDA
+│ ├── churn_by_contract.png
+│ ├── churn_by_payment.png
+│ ├── churn_by_internet.png
+│ ├── churn_by_monthlycharges.png
+│ ├── churn_by_techsupport.png
+│ ├── churn_by_tenure.png
+│ └── churn_dist.png
+├── telecom-x-churn-analysis.ipynb # Notebook com todo o processo de ETL e EDA
+├── README.md # Documentação do projeto
